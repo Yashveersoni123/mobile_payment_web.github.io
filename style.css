@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+    font-weight: 600;
+    font-size: 21px;
+    background-color: #d0d7df;
+    height: 62px;
+    font-family: sans-serif;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid; */
+    width: 9rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 1px 6px rgb(0 0 0 / 65%);
+    color: #ffffff;
+    margin-left: 29px;
+}
+
+center {
+    width: 77%;
+}
+
+.container {
+    height: 100%;
+    background-color: #E1FAFF;
+    display: flex;
+
+}
+
+.container1 {
+    height: 100%;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    display: flex;
+    width: 32rem;
+    background: #ecf6ff;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 {}
+
+.subcontainer1 {
+    width: 82%;
+    background: #c7dddd;
+    border-radius: 21px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+    margin-top: 3rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.heading {
+    height: 5rem;
+    display: flex;
+    /* font-weight: 500; */
+    justify-content: center;
+}
+
+.heading h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 1px 6px rgb(89 183 174 / 65%);
+    color: #7b9393;
+}
+
+.discription {
+    height: 5rem;
+}
+
+.balance {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    height: 39px;
+    align-items: center;
+}
+
+.balance h5 {
+    width: 6rem;
+}
+
+.creditbalance {
+    display: flex;
+    height: 34px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.creditbalance h5 {
+    width: 6rem;
+}
+
+.subcontainer2 {
+    margin-bottom: 16rem;
+    /* border: 1px solid; */
+    width: 99%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 14rem;
+    background-position: center;
+    margin-top: 1rem;
+}
+
+.subcontainer2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    background: #fffffff2;
+}
+
+.part1 {}
+
+.part1 h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 1px 6px rgb(4 0 0 / 65%);
+    color: #ffcbea;
+}
+
+.part2 {
+    display: flex;
+    height: 100%;
+}
+
+.section1 {
+    display: flex;
+    width: 50%;
+    height: 92%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section1 h1 {
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    height: 45px;
+    text-align: center;
+    color: #747272;
+}
+
+.History {
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    width: 70%;
+    height: 87%;
+    border-radius: 25px;
+    background: aliceblue;
+}
+
+.history1 {
+    display: grid;
+    margin-top: 6rem;
+    width: 100%;
+    height: 37rem;
+    overflow-y: scroll;
+    align-content: baseline;
+    justify-items: center;
+}
+
+.section2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.transfermoney {
+    width: 28rem;
+    background: #F0F365;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 44px;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transfer {
+    width: 24rem;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 17rem;
+}
+
+.transfer2 {
+    width: 24rem;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 17rem;
+}
+
+.transfer1 {
+    display: flex;
+}
+
+.transfersection {
+    margin-top: 3rem;
+    display: flex;
+    height: 6rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inputsection {
+    width: 18rem;
+    height: 69px;
+    border-radius: 2rem;
+    display: flex;
+    background-color: #fffffc;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    justify-content: center;
+}
+
+.transfersection input {
+    height: 43px;
+    border: none;
+    color: #2e2c2e;
+    letter-spacing: 2px;
+    font-size: 30px;
+    width: 15rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.sendlogo {
+    width: 4rem;
+    cursor: pointer;
+    border-radius: 60px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    height: 66px;
+}
+
+.sendlogo img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 5rem;
+    background-repeat: no-repeat;
+    background-image: url(transaction.svg);
+    background-position: center;
+}
+
+.logo1 {
+    width: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.money1 {
+    margin-left: 10px;
+}
+
+.requestloan {
+    width: 28rem;
+    height: 20rem;
+    background: #4C99DF;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test {
+    width: 90%;
+    display: flex;
+    border-radius: 10px;
+    height: 4rem;
+    background: aliceblue;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popup {
+    background: #b9b9b9;
+    width: 90%;
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.types {
+    width: 88%;
+    margin-top: 23px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #a9fda9;
+}
+
+.types1 {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: monospace;
+    color: #0a0a5a;
+}
+
+.types2 {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: monospace;
+    color: #0a0a5a;
+}
+
+@media screen and (max-width: 1397px) {
+    .transfermoney {
+        width: 23rem;
+        background: #F0F365;
+        height: 18rem;
+        margin-top: 1rem;
+        border-radius: 44px;
+        box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .transfer {
+        width: 90%;
+        /* border: 1px solid; */
+        margin-top: 16px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 17rem;
+    }
+
+
+    .requestloan {
+        width: 23rem;
+        height: 18rem;
+        background: #4C99DF;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: rgb(136 165 191 / 48%) 6px 2px 16px 0px, rgb(255 255 255 / 80%) -6px -2px 16px 0px;
+        border-radius: 44px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputsection {
+        width: 14rem;
+        height: 69px;
+        border-radius: 2rem;
+        display: flex;
+        background-color: #fffffc;
+        align-items: center;
+        box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+        justify-content: center;
+    }
+
+    .inputsection input {
+        height: 43px;
+        border: none;
+        color: #2e2c2e;
+        letter-spacing: 2px;
+        font-size: 30px;
+        width: 12rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .transfer2 {
+        width: 90%;
+        /* border: 1px solid; */
+        margin-top: 16px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 17rem;
+    }
+}
